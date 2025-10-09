@@ -1,0 +1,22 @@
+# .gitignore
+
+data/raw/genome-scores.csv          
+data/raw/genome-tags.csv
+data/raw/ml-latest/             
+
+# Архивы
+*.zip
+*.tar
+*.gz                       
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
